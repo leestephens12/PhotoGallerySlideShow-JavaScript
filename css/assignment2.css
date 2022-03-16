@@ -1,0 +1,45 @@
+/*
+    Set starting background color to pink since we start on a pink picture
+*/
+body {
+    background-color: pink;
+}
+/*
+    centre the header for the page
+*/
+h1 {
+    text-align: center;
+}
+
+/*
+    centre the featured image on the page
+*/
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+/*
+    centre the figcaption underneatht the featured photo
+*/
+figcaption {
+    text-align: center;
+    font-size: 125%;
+}
+
+/*
+    make the thumbnails horizontal
+*/
+li {
+    display: inline;
+}
+
+/*
+    change the photo with pink flowers to grey as we start off on thaty picture as well as centre the list elements
+*/
+#pink {
+    margin-left: 285px;
+    filter: grayscale(100%);
+}
